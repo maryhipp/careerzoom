@@ -36,12 +36,13 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="main-nav"><?php wp_nav_menu(); ?></div>
-		<div class="subpage-logo"><img src="<?php echo get_template_directory_uri(); ?>/images/logo_white.png"></div>
+		<div class="subpage-logo"><a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/logo_white_no_text.png"></a></div>
 		<div class="social">
-			<div class="social-icon"><a href="<?php the_field(''); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook.png"></a></div>
+			<div class="social-icon"><a href="<?php the_field('facebook_link', 'user_2'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook.png"></a></div>
+			<div class="social-icon"><a href="<?php the_field('twitter_link', 'user_2'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter.png"></a></div>
 			<div class="social-icon"><a href="<?php the_field(''); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/googleplus.png"></a></div>
-			<div class="social-icon"><a href="<?php the_field(''); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.png"></a></div>
-			<div class="social-icon"><a href="<?php the_field(''); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter.png"></a></div>
+			<div class="social-icon"><a href="<?php the_field('linkedin_link', 'user_2'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.png"></a></div>
+
 		</div>
 	</header><!-- #masthead -->
 
