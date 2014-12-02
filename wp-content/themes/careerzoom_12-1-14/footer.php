@@ -10,7 +10,6 @@
  */
 ?>
 
-		</div><!-- #main -->
   <footer>CareerZoom Inc. 2014. All rights reserved.</footer>
 
 	</div><!-- #page -->

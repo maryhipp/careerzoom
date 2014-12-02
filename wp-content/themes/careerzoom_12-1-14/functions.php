@@ -519,7 +519,7 @@ add_filter('show_admin_bar', '__return_false');
 
 // Adds favicon
 function diww_favicon() {
-	echo '<link rel="shortcut icon" type="image/x-icon" href="' . get_site_url() . '/favicon.ico" />';
+	echo '<link rel="shortcut icon" type="image/x-icon" href="' . get_bloginfo( 'template_directory' ) . '/favicon.ico" />';
 }
 add_action('wp_head', 'diww_favicon');
 add_action('admin_head', 'diww_favicon');
